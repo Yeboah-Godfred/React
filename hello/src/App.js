@@ -4,7 +4,7 @@ import Element from './components/Element';
 function App() {
   return (
     <div className="App">
-      <Element />
+      <Element name = "Godfred"/>
     </div>
   );
 }

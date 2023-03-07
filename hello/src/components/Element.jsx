@@ -1,7 +1,7 @@
-function element(){
+function element(props){
     return(
         <>
-            <h2>Welcome to React</h2>
+            <h2>{props.name} welcome to react</h2>
         </>
     )
 }
