@@ -1,7 +1,7 @@
 function element(props){
     return(
         <>
-            <h2>{props.name} welcome to react</h2>
+            <h2>{props.name} <i>{props.position}</i></h2>
         </>
     )
 }
