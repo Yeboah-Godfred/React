@@ -6,8 +6,13 @@ const Welcome = () => {
         const int = Math.floor(Math.random() * 3)
         return names[int]
       }
+    const welcomeStyle = {
+        backgroundColor : 'blue',
+        color : 'white',
+        padding : '10px'
+    }
   return (
-    <div>
+    <div style={welcomeStyle}>
       <h2>Welcome {randomName()}</h2>
     </div>
   )
